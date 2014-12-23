@@ -1,0 +1,9 @@
+.main {
+  margin-top: 20px;
+}
+.drawTime {
+  font-weight: bold;
+}
+.errorMsg {
+  color: red;
+}

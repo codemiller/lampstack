@@ -1,0 +1,18 @@
+doctype
+html
+  head
+    title OpenShift LampStack Competition
+    link(rel='stylesheet', href='/stylesheets/result.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+  body
+    .container.main
+      .row
+        .col-sm-offset-3.col-sm-6
+          .panel.panel-success
+            .panel-heading
+              h3.panel-title Thanks for your entry
+            .panel-body
+              div Your submission was #{unique}, which means you have #{chances} in the draw. Remember you must be present at the draw to win. The prize winners will be drawn at 
+                span.drawTime #{draw}.
+            .panel-footer
+              a.btn.btn-success(href='/blocks') New submission 

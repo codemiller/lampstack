@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+#playspace {
+    height: 1000px;
+    width: 1100px;
+    background: black;
+    position: relative;
+}
+#mainhead {
+    color: white;
+    position: absolute;
+    font-size: 90px;
+    left: 340px;
+    top: 300px;
+}
+#instructions {
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    position: absolute;
+    font-size: 35px;
+    left: 200px;
+    top: 410px;
+}
+.block {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+.active {
+    display: block;
+}
+.inactive {
+    display: none;
+}
+#blue {
+    height: 50px;
+    width: 200px;
+    top: 850px;
+    left: 450px;
+}
+#yellow {
+    height: 100px;
+    width: 100px;
+    top: 650px;
+    left: 400px;
+}
+#pink, #ginger, #green, #orange, #purple {
+    height: 100px;
+    width: 150px;
+}
+#pink {
+    top: 800px;
+    left: 200px;
+}
+#ginger {
+    top: 800px;
+    left: 750px;
+}
+#green {
+    top: 650px;
+    left: 200px;
+}
+#orange {
+    top: 650px;
+    left: 550px;
+}
+#purple {
+    top: 650px;
+    left: 750px;
+}
+#submit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+    display: block;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: purple;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 12px;
+}

@@ -1,0 +1,29 @@
+.main {
+    margin-top: 20px;
+}
+#mainhead {
+    text-align: center;
+}
+.buttons {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+}
+.btn {
+    margin: 10px !important;
+}
+#winnerName {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#winnerEmail {
+    color: gray;
+    font-weight: italic;
+    text-align: center;
+    font-size: 15px;
+}

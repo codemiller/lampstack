@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>OpenShift LampStack Competition</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stylesheets/entry.css" />
+</head>
+<body>
+    <div class="container main">
+        <div class="row" id="mainbody">
+            <div class="col-sm-offset-2 col-sm-8">
+                <div class="panel panel-default">
+                    <form id="entry" action="/entry" method="post">
+                        <div class="panel-body">
+                            <input type="hidden" id="sub" name="entry" value=""> 
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="name">Name:</label>
+                                <input type="name" class="form-control" id="name" name="name" />
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="company">Company:</label>
+                                <input type="name" class="form-control" id="company" name="company" />
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" />
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="form-group">
+                                <button value="submit" type="submit" class="btn btn-success">Save details</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/scripts/entry.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+doctype
+html
+  head
+    title Error - OpenShift LampStack Competition
+    link(rel='stylesheet', href='/stylesheets/result.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+  body
+    .container.main
+      .row
+        .col-sm-offset-3.col-sm-6
+          .panel.panel-success
+            .panel-heading
+               h3.panel-title Submission failed 
+            .panel-body
+                  div Your submission was unsuccessful: 
+                    span.errorMsg #{error}
+                    span . Please try again.
+            .panel-footer
+              a.btn.btn-success(href='/blocks') New submission 
